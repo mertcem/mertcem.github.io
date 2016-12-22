@@ -1,0 +1,178 @@
+<html>
+
+<head>
+
+    <title>SUPPLEMENTLER</title>
+    <meta name="author" content="mert">
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/ornek.css">
+
+
+</head>
+
+<body>
+
+
+<header>
+    <div class="con">
+        <div class="logo"><img src="foto/290679-optimum-nutrition-logo.png"></div>
+        <div class="arama">
+            <input class="aramayap" placeholder="Arama yap...">
+        </div>
+    </div>
+</header>
+
+
+<div class="ayir"></div>
+<div class="resim">
+
+</div>
+
+
+<div class="menu">
+    <div class="con">
+        <ul class="menu-ul">
+            <a href="index.html">
+                <li class="menu-li">Anasayfa</li>
+            </a>
+
+            <a href="protein-tozlari.html">
+                <li class="menu-li">Protein Tozları</li>
+            </a>
+
+            <a href="bcaa.html">
+                <li class="menu-li">BCAA</li>
+            </a>
+
+            <a href="kreatin.html">
+                <li class="menu-li">Kreatin</li>
+            </a>
+
+            <a href="zma.html">
+                <li class="menu-li">ZMA</li>
+            </a>
+
+            <a href="omega.html">
+                <li class="menu-li">Omega-3</li>
+            </a>
+
+            <a href="probiyotik.html">
+                <li class="menu-li">Probiyotik</li>
+            </a>
+
+            <a href="bulk-definition.html">
+                <li class="menu-li">Bulk - Definition</li>
+            </a>
+
+            <a href="iletisim.html">
+                <li class="menu-li">İletişim</li>
+            </a>
+
+
+        </ul>
+
+
+    </div>
+</div>
+
+
+<table border="0" align="center">
+    <tr>
+        <br>
+        <th align="center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qMogvZODxmU" frameborder="0"
+                    allowfullscreen></iframe>
+        </th>
+        <th align="center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/J7jpCePewu8" frameborder="0"
+                    allowfullscreen></iframe>
+        </th>
+    </tr>
+
+    <br><br>
+
+
+    <div class="ortala">
+
+        <form name="form1">
+
+            Boyunuzu cm cinsinden giriniz...<br/>
+
+            Boyunuz :<input type="text" name="boy"/>
+
+            Kilonuz :<input type="text" name="kilo"/>
+
+            <input type="button" name="btn" value="Hesapla" onclick="hesap(boy.value,kilo.value)"/>
+
+        </form>
+    </div>
+
+    <br><br><br>
+
+</table>
+
+<br><br><br>
+
+
+<div class="con">
+    <div class=" clean"></div>
+</div>
+
+
+<div class="con">
+    <div class="kay">Kaynakça :<a href="http://www.agirsaglam.com/"> Ağırsağlam </a>ve <a
+            href="http://www.supplementler.com/">www.supplementler.com</a></div>
+</div>
+
+<script language="javascript">
+
+    function hesap(a, b) {
+        var hesap1
+        hesap1 = parseInt(a) * parseInt(a)
+
+        var hesap2
+        hesap2 = hesap1 / 10000
+
+        var hesap3
+        hesap3 = parseInt(b) / hesap2
+
+
+        if (hesap3 < 18) {
+            alert("Kilonuz çok zayıf biraz kilo alın")
+        }
+
+        else if (hesap3 < 25) {
+            alert("İdeal kilodasınız")
+        }
+
+        else if (hesap3 < 30) {
+            alert("Kilonuz biraz fazla zayıflayın")
+        }
+
+        else if (hesap3 < 35) {
+            alert("Hafif şişmansınız yediklerinize dikkat edin")
+        }
+
+
+        else if (hesap3 < 40) {
+            alert("Şişmansınız biraz daha yemek yerseniz obez olacaksınız")
+        }
+
+
+        else if (hesap3 >= 40) {
+            alert("Obez olmuşsunuz acilen bir doktora görünün")
+        }
+
+
+        else {
+            alert("yanlış bir karakter girdiniz")
+        }
+
+    }
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+header {
+    width: 100%;
+    position: fixed;
+    background: #222;
+
+}
+
+.logo {
+    display: inline-block;
+    float: left
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+
+}
+
+.arama {
+    display: inline-block;
+    float: right;
+    margin-top: 12px;
+}
+
+.aramayap:focus {
+    width: 300px;
+    height: 30px;
+}
+
+.resim {
+    background: url('aaas.jpg');
+    height: 350px;
+    background-position: 50%;
+    background-size: cover;
+
+}
+
+.ayir {
+    height: 30px;
+}
+
+.con {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.con-footer {
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    font-size: 13px;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.menu {
+    border-bottom: 5px solid #ddd;
+    text-align: center;
+
+}
+
+.ortala {
+    text-align: center;
+}
+
+.menu-ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu-ul a {
+    color: black;
+
+}
+
+.menu-ul a:hover {
+    color: red;
+}
+
+.menu-li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 25px;
+    border-bottom: 5px solid #A02929;
+    font-size: 17px;
+
+}
+
+.menu-li:hover {
+    border-bottom: 5px solid #cc181e;
+}
+
+.A1 {
+    background-position: center center;
+
+    float: left;
+
+    margin-top: 5px;
+
+    margin-right: 15px;
+
+}
+
+.A2 {
+    background-position: center center;
+    float: left;
+
+    margin-top: 5px;
+    margin-right: 10px;
+
+    width: 510px;
+}
+
+.clean {
+    clear: both;
+}
+
+.kay {
+    background-color: black;
+    height: 40px;
+    width: auto;
+    margin-top: 50px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.A3 {
+
+    text-align: center;
+    background-position: center;
+
+}
+
+.A4 {
+    text-align: center;
+
+}
+
+.A4-1 {
+    background-position: center center;
+
+    float: left;
+    height: 150px;
+    width: 290px;
+    margin-top: 5px;
+
+    margin-right: 60px;
+}
+
+.A4-2 {
+    background-position: center center;
+    float: left;
+    height: 150px;
+    width: 290px;
+    margin-top: 5px;
+    margin-right: 60px;
+}
+
+.A4-3 {
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 150px;
+    width: 290px;
+    margin-top: 5px;
+}
